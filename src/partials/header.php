@@ -11,6 +11,7 @@ declare(strict_types=1); ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Site em PHP do zero, sem banco de dados, com layout simples.">
     <link rel="stylesheet" href="<?= $baseUrl ?>assets/css/style.css">
+
 </head>
 
 <body>

@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 require __DIR__ . '/../src/Config.php';
 require __DIR__ . '/../src/partials/header.php';
+
 ?>
 <section class="hero">
     <div class="hero-texto">

@@ -30,29 +30,29 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ?>
 
 <section class="page-header">
-    <h1>Contato</h1>
-    <p>Envie sua mensagem preenchendo o formulário abaixo.</p>
+  <h1>Contato</h1>
+  <p>Envie sua mensagem preenchendo o formulário abaixo.</p>
 </section>
 
 <section class="contato-form">
-    <?php if ($mensagemSucesso): ?>
+  <?php if ($mensagemSucesso): ?>
     <div class="alert sucesso"><?= $mensagemSucesso ?></div>
-    <?php elseif ($mensagemErro): ?>
+  <?php elseif ($mensagemErro): ?>
     <div class="alert erro"><?= $mensagemErro ?></div>
-    <?php endif; ?>
+  <?php endif; ?>
 
-    <form method="post" action="">
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" required>
+  <form method="post" action="">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
 
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" required>
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
 
-        <label for="mensagem">Mensagem:</label>
-        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+    <label for="mensagem">Mensagem:</label>
+    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
 
-        <button type="submit" class="btn">Enviar</button>
-    </form>
+    <button type="submit" class="btn">Enviar</button>
+  </form>
 </section>
 
 <?php
